@@ -49,10 +49,10 @@ target density tag: This parameter refers to the target density mentioned in the
 We used five target densities, D1-D5, in the paper.
 These target densitie tags Level[1-5] are used for D1-D5 respectively in the experiments.
 
-The target density files have to be generated using [gen_bounds_targetdensities.py](https://github.com/less-lab-uva/CIT4DNN/tree/main/gen_bounds_targetdensities.py) script. Refer to [README.md](https://github.com/less-lab-uva/CIT4DNN/tree/main/README.md) file for instructions about running this script.
+The target density files have to be generated using [gen_bounds_targetdensities.py](https://github.com/swa112003/CIT4DNN/tree/main/gen_bounds_targetdensities.py) script. Refer to [README.md](https://github.com/swa112003/CIT4DNN/tree/main/README.md) file for instructions about running this script.
 ```
 
-This program generates a log file, aetglog_z\<factors\>\_p\<levels\>\_t\<t\>\<target density tag\>.out, and an RCCA, aetg_z\<factors\>\_p\<levels\>\_t\<t\>\<target density tag\>.out in the [Results/CoveringArrays](https://github.com/less-lab-uva/CIT4DNN/tree/main/Results/CoveringArrays) directory.
+This program generates a log file, aetglog_z\<factors\>\_p\<levels\>\_t\<t\>\<target density tag\>.out, and an RCCA, aetg_z\<factors\>\_p\<levels\>\_t\<t\>\<target density tag\>.out in the [Results/CoveringArrays](https://github.com/swa112003/CIT4DNN/tree/main/Results/CoveringArrays) directory.
 
 ### Example 
 Below command is used for generating RCCA for the MNIST experiments for the target density D1 mentioned in the paper.
@@ -84,4 +84,4 @@ radin2 2.71 radout2 4.68561
 Repeat 0
 ```
 
-The above program generates aetlog_z9_p20_t3Level1.out and aetg_z9_p20_t3Level1.out in the [Results/CoveringArrays](https://github.com/less-lab-uva/CIT4DNN/tree/main/Results/CoveringArrays) directory.
+The above program generates aetlog_z9_p20_t3Level1.out and aetg_z9_p20_t3Level1.out in the [Results/CoveringArrays](https://github.com/swa112003/CIT4DNN/tree/main/Results/CoveringArrays) directory.
